@@ -15,6 +15,7 @@
 		1D289883283A222E002A3934 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D289882283A222E002A3934 /* Category.swift */; };
 		1D289886283A2261002A3934 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1D289885283A2261002A3934 /* Alamofire */; };
 		1D289888283A2376002A3934 /* AddCategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D289887283A2376002A3934 /* AddCategoryScreen.swift */; };
+		1D28988A283A305E002A3934 /* CategoryDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D289889283A305E002A3934 /* CategoryDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1D28987F283A221C002A3934 /* CategoryListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListScreen.swift; sourceTree = "<group>"; };
 		1D289882283A222E002A3934 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		1D289887283A2376002A3934 /* AddCategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryScreen.swift; sourceTree = "<group>"; };
+		1D289889283A305E002A3934 /* CategoryDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				1D28987F283A221C002A3934 /* CategoryListScreen.swift */,
 				1D289887283A2376002A3934 /* AddCategoryScreen.swift */,
+				1D289889283A305E002A3934 /* CategoryDetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D28988A283A305E002A3934 /* CategoryDetailScreen.swift in Sources */,
 				1D289880283A221C002A3934 /* CategoryListScreen.swift in Sources */,
 				1D289888283A2376002A3934 /* AddCategoryScreen.swift in Sources */,
 				1D289873283A21E0002A3934 /* ContentView.swift in Sources */,
